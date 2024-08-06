@@ -10,14 +10,14 @@ api_access_token = "0Tq79aasjkhqjhauV"
 default_url = []
 
 # Insert subscription links to requests. Can be used to add node(s) to all exported subscriptions.
-enable_insert = true
+#enable_insert = true
 # URLs to insert before subscription links, can be used to add node(s) to all exported subscriptions, supports local files/URL
-insert_url = [""]
+#insert_url = [""]
 # Prepend inserted URLs to subscription links. Nodes in insert_url will be added to groups first with non-group-specific match pattern.
-prepend_insert_url = true
+#prepend_insert_url = true
 
 # Exclude nodes which remarks match the following patterns. Supports regular expression.
-exclude_remarks = ["(到期|官方|Traffic|Expire|剩余|时间|官网|产品|香港|俄罗斯|倍率5|倍率6)"]
+#exclude_remarks = ["(到期|官方|Traffic|Expire|剩余|时间|官网|产品|香港|俄罗斯|倍率5|倍率6)"]
 
 # Only include nodes which remarks match the following patterns. Supports regular expression.
 #include_remarks = ["V3.*港"]
